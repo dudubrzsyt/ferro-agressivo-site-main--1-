@@ -56,7 +56,7 @@ export function ContactForm({ title = "Fale com a gente", subtitle = "Resposta e
       const data = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(data.message || "Não foi possível enviar sua mensagem.");
+        throw new Error(data.message || "Sua mensagem não foi enviada por falta de confirmação.");
       }
 
       setSent(true);

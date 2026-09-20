@@ -25,7 +25,6 @@ import { Route as ArmadurasProntasRouteImport } from './routes/armaduras-prontas
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AdminUsuariosRouteImport } from './routes/AdminUsuarios'
 import { Route as IndexRouteImport } from './routes/index'
-import { Analytics } from "@vercel/analytics/next"
 
 const VergalhaoCa50Route = VergalhaoCa50RouteImport.update({
   id: '/vergalhao-ca-50',

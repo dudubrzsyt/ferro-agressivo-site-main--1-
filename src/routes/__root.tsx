@@ -17,6 +17,9 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { FloatingBubbles } from "../components/FloatingBubbles";
 import { AnalyticsTracker } from "../components/AnalyticsTracker";
+import { inject } from '@vercel/analytics';
+
+inject(); // Coloque logo no início do arquivo
 
 function NotFoundComponent() {
   return (
